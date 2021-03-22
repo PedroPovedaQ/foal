@@ -68,7 +68,7 @@ export class Product {
 
 And the schema of your API (defined in the controller file) should look like this:
 ```typescript
-export const productSchhema = {
+export const productSchema = {
   additionalProperties: false,
   properties: {
     text: { type: 'string', maxLength: 255 },
@@ -109,7 +109,7 @@ export class Product {
 
 *product.controller.ts*
 ```typescript
-export const productSchhema = {
+export const productSchema = {
   additionalProperties: false,
   properties: {
     sold: { type: 'boolean', default: false },
